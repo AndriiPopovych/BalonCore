@@ -1,0 +1,98 @@
+﻿/************************************************************************************
+ADMIN
+*************************************************************************************/
+@font-face  {
+	font-family:'awesome';
+	src: url('fonts/fontawesome.otf');
+	src: local('☺'),
+	url('fonts/fontawesome.woff') format('woff'),
+	url('fonts/fontawesome.ttf') format('truetype'),
+	url('fonts/fontawesome.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.control_block {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	left: auto;
+	bottom: auto;
+	width: auto !important;
+	height: auto !important;
+	line-height: 14px;
+	padding: 3px;
+	display: inline-block;
+	opacity: 1;
+	visibility: visible;
+	background-color: rgba(180, 180, 180, 0.5);
+	border: 1px solid #fff1e1;
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+	z-index: 5;
+
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+}
+.control_block:hover {
+    background-color:rgba(180, 180, 180, 0.8);
+}
+.control_block.left {
+	left: 2px;
+	right: auto !important;
+}
+.control_block.right {
+    right: 2px;
+    left: auto !important;
+}
+.control_block [class^=icon-],
+.control_block [class*=icon-] {
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+    margin: 0!important;
+	padding: 3px 3px 1px 2px!important;
+	line-height: normal!important;
+	vertical-align: middle;
+	text-decoration: none!important;
+	font-style: normal!important;
+	text-align: center!important;
+	font: 12px awesome !important;
+	cursor: pointer;
+    background: transparent !important;
+	border: 1px solid transparent;
+    -webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+            border-radius: 100%;
+}
+.control_block [class^=icon-]:hover,
+.control_block [class*=icon-]:hover {
+    border: 1px solid #4e3a32;
+}
+
+
+.icon-eye-open:before 	{	content: "\f06e"; }
+.icon-eye-close:before 	{	content: "\f070"; }
+.icon-edit:before 		{	content: "\f044"; }
+.icon-plus:before 		{	content: "\f067"; }
+.icon-left:before       {   content: "\f077"; }     /*up*/
+.icon-right:before      {   content: "\f078"; }     /*down*/
+
+.icon-remove:before,
+.icon-exit:before 		{	content: "\f00d"; }
+
+
+.p-rel { position: relative; }
+.p-abs { position: absolute; }
+.p-fix { position: fixed; }
+
+
+/*.page_article__article__text .control_block {
+    right: -50px;
+}
+*/
+
