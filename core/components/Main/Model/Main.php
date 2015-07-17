@@ -19,7 +19,7 @@ class Main {
         $data['slider'] = $this->loadSlider();
         $data['politics'] = $this->loadNewsList(1);
         return $data;
-        ///saff
+        ///saffsfd
     }
 
     private function loadSlider() {
