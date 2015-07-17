@@ -11,7 +11,8 @@
         require ('core/lib/php/autoloader.php');
         require ('config.php');
         define("DEV_MOD",true);
-
+// sfsdgsdfg
+//sdgdfgds
         $rout = new \Balon\Routing();
         $rout->loadPage();
 
