@@ -16,7 +16,6 @@ class Main {
     }
 
     public function index() {
-        $this->db = DBProc::instance();
         $data['slider'] = $this->loadSlider();
         $data['politics'] = $this->loadNewsList(1);
         return $data;
